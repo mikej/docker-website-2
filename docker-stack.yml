@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  web:
+    image: docker.pkg.github.com/mikej/docker-website-2/second-site
+    ports:
+      - "8080:81"
